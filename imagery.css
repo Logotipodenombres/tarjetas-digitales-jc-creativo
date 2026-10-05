@@ -1,0 +1,29 @@
+/* Original supplied artwork, framed in the page without altering source files. */
+.phone-only{width:100%;height:390px;margin:0 0 28px;background:radial-gradient(ellipse at bottom,#174875,transparent 65%);border-radius:20px;clip-path:inset(0 round 20px)}
+.package-art.phone-only img{position:absolute;width:390px;max-width:none;height:auto;aspect-ratio:auto;left:50%;top:-57px;transform:translateX(-77%);clip-path:polygon(62% 13%,100% 13%,100% 91%,49% 91%)}
+.package-art.phone-only:hover img{transform:translateX(-77%) scale(1.02)}
+.package-art.phone-only span{bottom:0;right:50%;transform:translateX(50%)}
+.package ul{display:grid;gap:12px;line-height:1.4;margin:22px 0 28px}.package li{display:flex;align-items:center;gap:12px;background:linear-gradient(100deg,#103458,#041423);border:1px solid #1a476e;border-radius:40px;padding:8px 12px 8px 7px;font-weight:700;min-height:65px}.package li:before{display:none}
+.color-icon{flex:0 0 43px;height:43px;display:grid;place-items:center;border-radius:50%;font-size:23px;border:2px solid #ffffff66;background:linear-gradient(140deg,#ff4bad,#c9006e);box-shadow:inset 0 0 9px #ffffff77,0 3px 9px #0008}.icon-1{background:linear-gradient(140deg,#ffdd3e,#f39800)}.icon-2{background:linear-gradient(140deg,#25e68d,#008c53)}.icon-3{background:linear-gradient(140deg,#ba5aff,#6518ce)}
+.package h3{border:1px solid #32b6ff;border-radius:22px;text-align:center;padding:18px 5px;box-shadow:0 0 18px #149aff33}.package h3:after{content:'PAGO ÚNICO';display:block;font:500 11px Manrope,sans-serif;letter-spacing:.3em;margin-top:10px;color:#dceeff}
+#demo-dialog.phone-detail{width:290px;height:590px;overflow:hidden;background:#031223;padding:0}#demo-dialog.phone-detail img{position:absolute;width:580px;max-width:none;left:-286px;top:-80px;clip-path:polygon(61% 13%,100% 13%,100% 91%,49% 91%)}#demo-dialog.phone-detail p{position:absolute;bottom:0;width:100%;background:#031223;margin:0;padding:12px}
+.demo-cover{height:190px;padding:35px 10px 0;background:#fff}
+.caprichos-logo{position:relative;width:100%;height:150px;overflow:hidden}
+.caprichos-logo img{position:absolute;width:760px;max-width:none;height:auto;left:-474px;top:-172px;transform:rotate(-3deg)}
+.demo-profile{text-align:center;padding-top:8px}.demo-profile b{font-size:19px;color:#142242}.demo-profile span{margin-top:5px;font-size:10px}
+.sweet-products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:0 12px}
+.sweet-products>div{background:#fff;border-radius:9px;overflow:hidden;box-shadow:0 3px 10px #10214014;padding-bottom:8px}
+.product-photo{height:91px;position:relative;overflow:hidden;background:#ffeada}
+.product-photo img{position:absolute;width:780px;max-width:none;height:auto;top:-526px}
+.raspado img{left:-442px}.frappe img{left:-531px}.snacks img{left:-620px}
+.sweet-products b,.sweet-products span{display:block;padding:3px 5px 0;font-size:10px}.sweet-products span{font-weight:800;color:#f50071;font-size:12px}
+.sweet-footer{text-align:center;font-size:13px;line-height:1.6;color:#31527e;padding:8px 12px 30px}
+.phone-scroll{animation:caprichosScroll 14s ease-in-out infinite}.phone:hover .phone-scroll{animation-play-state:paused}
+.package{padding:20px 24px 28px;overflow:hidden}.package-art{display:block;width:calc(100% + 48px);margin:-20px -24px 26px;padding:0;border:0;background:#031223;cursor:zoom-in;position:relative;overflow:hidden}
+.package-art img{display:block;width:100%;height:auto;transition:transform .5s;aspect-ratio:1122/1402;object-fit:contain}
+.package-art:hover img{transform:scale(1.025)}.package-art span{position:absolute;bottom:14px;right:14px;padding:8px 13px;border-radius:30px;background:#021226e8;border:1px solid #8bd5ff66;color:white;font-size:12px;backdrop-filter:blur(8px)}
+.package-art:focus-visible{outline:3px solid #65d7ff;outline-offset:-4px}.package h3{margin-top:18px}.package.featured{transform:none}
+#demo-dialog{max-height:92vh;overflow:auto}#demo-dialog img{object-fit:contain}.dialog-close{position:sticky;float:right;top:0;margin-bottom:-38px;z-index:2}
+@keyframes caprichosScroll{0%,18%{transform:translateY(0)}50%,72%{transform:translateY(-160px)}95%,100%{transform:translateY(0)}}
+@media(max-width:650px){.caprichos-logo img{width:680px;left:-425px;top:-151px}.demo-cover{height:211px}.caprichos-logo{height:178px}.sweet-products{padding:0 8px;gap:4px}.product-photo img{width:700px;top:-472px}.raspado img{left:-397px}.frappe img{left:-477px}.snacks img{left:-557px}.product-photo{height:80px}.package{padding-inline:24px}}
+@media(prefers-reduced-motion:reduce){.phone-scroll,.orbit,.marquee div{animation:none}.reveal{opacity:1;transform:none;transition:none}}
